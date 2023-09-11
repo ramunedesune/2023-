@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="mm" altunit="mm"/>
@@ -2125,6 +2125,42 @@ MELF 0.10 W</description>
 </package>
 </packages>
 </library>
+<library name="con-jst-xh">
+<description>&lt;b&gt;J.S.T. Connectors XH Family&lt;/b&gt;
+&lt;p&gt;Created by Michael Shimniok &lt;a href="http://www.bot-thoughts.com/"&gt;www.bot-thoughts.com&lt;/a&gt;&lt;/b&gt;</description>
+<packages>
+<package name="B2B-XH">
+<description>&lt;b&gt;JST XH Connector&lt;/b&gt;
+
+&lt;p&gt;JST 2.54mm connector. Folded beam contact, box-shaped shrouded header, header with a boss, interchangeability, conformance to the HA terminal&lt;/p&gt;
+
+&lt;p&gt;Datasheet: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"&gt; eXH.pdf&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-3.72" y1="3.4" x2="3.72" y2="3.4" width="0.127" layer="21"/>
+<wire x1="3.72" y1="3.4" x2="3.72" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="-1.58" y1="-2.35" x2="-3.72" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="-3.72" y1="-2.35" x2="-3.72" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="-3.72" y1="-0.65" x2="-3.72" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-3.02" y1="2.7" x2="3.02" y2="2.7" width="0.127" layer="21"/>
+<wire x1="3.02" y1="2.7" x2="3.02" y2="1.27" width="0.127" layer="21"/>
+<wire x1="3.02" y1="1.27" x2="3.02" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="-1.58" y1="-1.65" x2="-3.72" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="-3.02" y1="-0.65" x2="-3.02" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-3.02" y1="1.27" x2="-3.02" y2="2.7" width="0.127" layer="21"/>
+<wire x1="-3.02" y1="1.27" x2="3.02" y2="1.27" width="0.127" layer="21"/>
+<pad name="2" x="-1.27" y="0" drill="1"/>
+<pad name="1" x="1.27" y="0" drill="1" shape="square"/>
+<text x="-1.27" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3.72" y1="-0.65" x2="-3.02" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="3.02" y1="-0.65" x2="3.72" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="-1.58" y1="-1.65" x2="-1.58" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="1.58" y1="-2.35" x2="3.72" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="3.72" y1="-2.35" x2="3.72" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="1.58" y1="-1.65" x2="3.72" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="1.58" y1="-1.65" x2="1.58" y2="-2.35" width="0.127" layer="21"/>
+</package>
+</packages>
+</library>
 <library name="SMD1608チップLED">
 <packages>
 <package name="SMD1608チップLED">
@@ -2530,6 +2566,10 @@ design rules under a new name.</description>
 <element name="C22" library="GCM188L81H104K57(0.1uF)" package="GCM188L81H104KA57" value="GCM188L81H104KA57" x="67.9" y="33.6" smashed="yes">
 <attribute name="NAME" x="67.1" y="34.1" size="0.1" layer="21"/>
 </element>
+<element name="POW" library="con-jst-xh" package="B2B-XH" value="02-JST" x="90.7" y="57.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="86.89" y="56.23" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="94.51" y="56.23" size="1.27" layer="27" rot="R90"/>
+</element>
 <element name="C11" library="GRM0335C1E240GA01D" package="GRM0335C1E240GA01D" value="10μ" x="71.2" y="54.3" smashed="yes">
 <attribute name="NAME" x="69.8875" y="53.5125" size="0.5" layer="25"/>
 <attribute name="VALUE" x="69.8875" y="54.5625" size="0.5" layer="27"/>
@@ -2599,6 +2639,9 @@ design rules under a new name.</description>
 </element>
 <element name="C18" library="GCM188L81H104K57(0.1uF)" package="GCM188L81H104KA57" value="GCM188L81H104KA57" x="85.8" y="34.7" smashed="yes">
 <attribute name="NAME" x="85" y="35.2" size="0.1" layer="21"/>
+</element>
+<element name="C23" library="GCM188L81H104K57(0.1uF)" package="GCM188L81H104KA57" value="GCM188L81H104KA57" x="86.2" y="57" smashed="yes" rot="R270">
+<attribute name="NAME" x="86.7" y="57.8" size="0.1" layer="21" rot="R270"/>
 </element>
 </elements>
 <signals>
@@ -2793,6 +2836,7 @@ design rules under a new name.</description>
 <contactref element="C14" pad="2"/>
 <contactref element="TWE_LEFT" pad="1"/>
 <contactref element="U$8" pad="CATHODE"/>
+<contactref element="POW" pad="1"/>
 <via x="67.3" y="61.3" extent="1-16" drill="0.35"/>
 <via x="77.2" y="52.4" extent="1-16" drill="0.35"/>
 <via x="23.6" y="69" extent="1-16" drill="0.35"/>
@@ -2862,10 +2906,13 @@ design rules under a new name.</description>
 <contactref element="C21" pad="P$2"/>
 <contactref element="C22" pad="P$2"/>
 <contactref element="C20" pad="P$2"/>
+<contactref element="C23" pad="P$2"/>
 <wire x1="82.59" y1="71.59" x2="85.4" y2="73.4" width="0" layer="19" extent="1-1"/>
 <wire x1="78.8" y1="66.6" x2="82.59" y2="71.59" width="0" layer="19" extent="1-1"/>
 <wire x1="78.4" y1="64.2" x2="78.8" y2="66.6" width="0" layer="19" extent="1-1"/>
 <wire x1="81.6" y1="59.7" x2="78.4" y2="64.2" width="0" layer="19" extent="1-1"/>
+<wire x1="86.2" y1="56.3" x2="81.6" y2="59.7" width="0" layer="19" extent="1-1"/>
+<wire x1="90.7" y1="58.77" x2="86.2" y2="56.3" width="0" layer="19" extent="1-1"/>
 <wire x1="76.7" y1="54.9" x2="81.6" y2="59.7" width="0" layer="19" extent="1-1"/>
 <wire x1="77.2" y1="52.4" x2="76.7" y2="54.9" width="0" layer="19" extent="1-1"/>
 <wire x1="71.525" y1="54.89" x2="76.7" y2="54.9" width="0" layer="19" extent="1-1"/>
@@ -3443,6 +3490,7 @@ design rules under a new name.</description>
 <wire x1="67.2" y1="35.7" x2="67.2" y2="33.6" width="0.3" layer="1"/>
 <contactref element="C14" pad="1"/>
 <wire x1="70.875" y1="52.55" x2="70.875" y2="52.5" width="0.3" layer="1"/>
+<contactref element="POW" pad="2"/>
 <wire x1="70.875" y1="52.5" x2="70.875" y2="51.9" width="0.3" layer="1"/>
 <contactref element="TWE_RIGHT" pad="1"/>
 <wire x1="33.39" y1="52.21" x2="31.59" y2="54.01" width="0.2" layer="16"/>
@@ -3466,8 +3514,12 @@ design rules under a new name.</description>
 <wire x1="90.7" y1="36.73434375" x2="89.6436" y2="37.79074375" width="0.3" layer="16"/>
 <wire x1="89.6436" y1="44.24925625" x2="90.7" y2="45.30565625" width="0.3" layer="16"/>
 <wire x1="45.5294" y1="15.7" x2="66.7" y2="15.7" width="0.2" layer="16"/>
+<contactref element="C23" pad="P$1"/>
+<wire x1="86.2" y1="65.44" x2="86.2" y2="57.7" width="0.3" layer="1"/>
 <wire x1="82.59" y1="69.05" x2="86.2" y2="65.44" width="0.3" layer="1"/>
 <wire x1="82.59" y1="69.05" x2="82.59" y2="59.1567125" width="0.3" layer="1"/>
+<wire x1="86.2" y1="57.7" x2="89.23" y2="57.7" width="0.3" layer="1"/>
+<wire x1="89.23" y1="57.7" x2="90.7" y2="56.23" width="0.3" layer="1"/>
 <wire x1="62.1" y1="52.54" x2="68.3" y2="52.54" width="0" layer="19" extent="1-1"/>
 <wire x1="50.6" y1="51.26" x2="58.765" y2="51.052" width="0" layer="19" extent="1-1"/>
 <wire x1="51.25" y1="34.4" x2="49.4" y2="43.75" width="0" layer="19" extent="16-16"/>
