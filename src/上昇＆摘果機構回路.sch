@@ -7286,7 +7286,7 @@ Low profile connectors, straight&lt;p&gt;
 <part name="RIGHT2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY23" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SERVO" library="con-jst-xh (1)" deviceset="02-JST" device=""/>
+<part name="AZUSA_COM" library="con-jst-xh (1)" deviceset="02-JST" device=""/>
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -7394,10 +7394,6 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <text x="-198.12" y="20.32" size="1.778" layer="94">ユニバーサル基板で一応確認済み</text>
 <text x="26.416" y="40.894" size="1.778" layer="95">C5</text>
 <text x="-88.9" y="48.26" size="1.778" layer="97">DC電源ラインのノイズ対策インダクタンス</text>
-<wire x1="-243.84" y1="-33.02" x2="-243.84" y2="-81.28" width="0.1524" layer="97"/>
-<wire x1="-243.84" y1="-81.28" x2="-185.42" y2="-81.28" width="0.1524" layer="97"/>
-<wire x1="-185.42" y1="-81.28" x2="-185.42" y2="-33.02" width="0.1524" layer="97"/>
-<wire x1="-185.42" y1="-33.02" x2="-243.84" y2="-33.02" width="0.1524" layer="97"/>
 <wire x1="-157.48" y1="78.74" x2="-157.48" y2="106.68" width="0.1524" layer="97"/>
 <wire x1="-157.48" y1="106.68" x2="-93.98" y2="106.68" width="0.1524" layer="97"/>
 <wire x1="-93.98" y1="106.68" x2="-93.98" y2="78.74" width="0.1524" layer="97"/>
@@ -7652,7 +7648,7 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 </instance>
 <instance part="SUPPLY22" gate="GND" x="-236.22" y="-73.66" smashed="yes"/>
 <instance part="SUPPLY23" gate="GND" x="-195.58" y="-73.66" smashed="yes"/>
-<instance part="SERVO" gate="G$1" x="-137.16" y="91.44" smashed="yes">
+<instance part="AZUSA_COM" gate="G$1" x="-137.16" y="91.44" smashed="yes">
 <attribute name="VALUE" x="-138.43" y="83.82" size="1.778" layer="96"/>
 <attribute name="NAME" x="-138.43" y="94.742" size="1.778" layer="95"/>
 </instance>
@@ -7973,7 +7969,7 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <label x="-198.12" y="-76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SERVO" gate="G$1" pin="1"/>
+<pinref part="AZUSA_COM" gate="G$1" pin="1"/>
 <wire x1="-129.54" y1="88.9" x2="-124.46" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-124.46" y1="88.9" x2="-124.46" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="SUPPLY24" gate="GND" pin="GND"/>
@@ -8702,7 +8698,7 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 </net>
 <net name="PWM_SERVO" class="0">
 <segment>
-<pinref part="SERVO" gate="G$1" pin="2"/>
+<pinref part="AZUSA_COM" gate="G$1" pin="2"/>
 <wire x1="-129.54" y1="91.44" x2="-114.3" y2="91.44" width="0.1524" layer="91"/>
 <label x="-129.54" y="91.44" size="1.778" layer="95"/>
 </segment>
