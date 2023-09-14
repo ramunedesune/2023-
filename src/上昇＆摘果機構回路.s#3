@@ -1067,6 +1067,82 @@ In this library the device names are the same as the pin names of the symbols, t
 <rectangle x1="13.589" y1="-2.921" x2="14.351" y2="-1.905" layer="21"/>
 <rectangle x1="16.129" y1="-2.921" x2="16.891" y2="-1.905" layer="21"/>
 </package>
+<package name="1X04" urn="urn:adsk.eagle:footprint:22258/1" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.635" x2="5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.1562" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+</package>
+<package name="1X04/90" urn="urn:adsk.eagle:footprint:22259/1" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-5.08" y1="-1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="6.985" x2="-3.81" y2="1.27" width="0.762" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="6.985" x2="-1.27" y2="1.27" width="0.762" layer="21"/>
+<wire x1="0" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="6.985" x2="1.27" y2="1.27" width="0.762" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-1.905" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.635" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="6.985" x2="3.81" y2="1.27" width="0.762" layer="21"/>
+<pad name="1" x="-3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.715" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="6.985" y="-4.445" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-4.191" y1="0.635" x2="-3.429" y2="1.143" layer="21"/>
+<rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.143" layer="21"/>
+<rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.143" layer="21"/>
+<rectangle x1="3.429" y1="0.635" x2="4.191" y2="1.143" layer="21"/>
+<rectangle x1="-4.191" y1="-2.921" x2="-3.429" y2="-1.905" layer="21"/>
+<rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
+<rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
+<rectangle x1="3.429" y1="-2.921" x2="4.191" y2="-1.905" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="1X02" urn="urn:adsk.eagle:package:22435/2" type="model" library_version="4">
@@ -1103,6 +1179,18 @@ In this library the device names are the same as the pin names of the symbols, t
 <description>PIN HEADER</description>
 <packageinstances>
 <packageinstance name="1X14/90"/>
+</packageinstances>
+</package3d>
+<package3d name="1X04" urn="urn:adsk.eagle:package:22407/2" type="model" library_version="4">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X04"/>
+</packageinstances>
+</package3d>
+<package3d name="1X04/90" urn="urn:adsk.eagle:package:22404/2" type="model" library_version="4">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X04/90"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1152,6 +1240,18 @@ In this library the device names are the same as the pin names of the symbols, t
 <pin name="12" x="-2.54" y="-12.7" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="13" x="-2.54" y="-15.24" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="14" x="-2.54" y="-17.78" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+<symbol name="PINHD4" urn="urn:adsk.eagle:symbol:22257/1" library_version="4">
+<wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="7.62" x2="-6.35" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="7.62" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-6.35" y="8.255" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1290,6 +1390,46 @@ In this library the device names are the same as the pin names of the symbols, t
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PINHD-1X4" urn="urn:adsk.eagle:component:22499/5" prefix="JP" uservalue="yes" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="PINHD4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X04">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22407/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="91" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="/90" package="1X04/90">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22404/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="9" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7595,6 +7735,106 @@ Low profile connectors, straight&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="BLM18KG121TN1D">
+<packages>
+<package name="BLM18KG121TN1D">
+<smd name="1" x="-0.675" y="0" dx="0.65" dy="1.2" layer="1"/>
+<smd name="2" x="0.675" y="0" dx="0.65" dy="1.2" layer="1"/>
+<wire x1="-0.875" y1="0.475" x2="-0.875" y2="-0.475" width="0.1" layer="21"/>
+<wire x1="-0.875" y1="-0.475" x2="-0.375" y2="-0.475" width="0.1" layer="21"/>
+<wire x1="-0.375" y1="-0.475" x2="0.375" y2="-0.475" width="0.1" layer="21"/>
+<wire x1="0.375" y1="-0.475" x2="0.875" y2="-0.475" width="0.1" layer="21"/>
+<wire x1="0.875" y1="-0.475" x2="0.875" y2="0.475" width="0.1" layer="21"/>
+<wire x1="0.875" y1="0.475" x2="0.375" y2="0.475" width="0.1" layer="21"/>
+<wire x1="0.375" y1="0.475" x2="-0.375" y2="0.475" width="0.1" layer="21"/>
+<wire x1="-0.375" y1="0.475" x2="-0.875" y2="0.475" width="0.1" layer="21"/>
+<wire x1="-0.375" y1="-0.475" x2="-0.375" y2="0.475" width="0.1" layer="21"/>
+<wire x1="0.375" y1="0.475" x2="0.375" y2="-0.475" width="0.1" layer="21"/>
+<text x="-2.025" y="0.675" size="0.7" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="L-US">
+<wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<text x="-1.27" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="3.81" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BLM18KG121TN1D" prefix="FB">
+<gates>
+<gate name="G$1" symbol="L-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BLM18KG121TN1D">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="GRM21BC72A105KE01(1uF)">
+<packages>
+<package name="GRM21BC72A105KE01">
+<smd name="P$1" x="-1" y="0" dx="0.8" dy="1.4" layer="1"/>
+<smd name="P$2" x="1" y="0" dx="0.8" dy="1.4" layer="1"/>
+<wire x1="-1.1" y1="0.725" x2="-1.1" y2="-0.725" width="0.05" layer="21"/>
+<wire x1="-1.1" y1="-0.725" x2="-0.4" y2="-0.725" width="0.05" layer="21"/>
+<wire x1="-0.4" y1="-0.725" x2="0.4" y2="-0.725" width="0.05" layer="21"/>
+<wire x1="0.4" y1="-0.725" x2="1.1" y2="-0.725" width="0.05" layer="21"/>
+<wire x1="1.1" y1="-0.725" x2="1.1" y2="0.725" width="0.05" layer="21"/>
+<wire x1="1.1" y1="0.725" x2="0.4" y2="0.725" width="0.05" layer="21"/>
+<wire x1="0.4" y1="0.725" x2="-0.4" y2="0.725" width="0.05" layer="21"/>
+<wire x1="-0.4" y1="0.725" x2="-1.1" y2="0.725" width="0.05" layer="21"/>
+<wire x1="-0.4" y1="0.725" x2="-0.4" y2="-0.725" width="0.05" layer="21"/>
+<wire x1="0.4" y1="0.725" x2="0.4" y2="-0.725" width="0.05" layer="21"/>
+<text x="-1.1" y="0.8" size="0.2" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CAPACITOR">
+<wire x1="0" y1="-5.08" x2="0" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.508" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<rectangle x1="-2.032" y1="-2.032" x2="2.032" y2="-1.524" layer="94"/>
+<rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
+<pin name="P$1" x="0" y="2.54" visible="off" length="short" rot="R270"/>
+<pin name="P$2" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+<text x="1.016" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.302" y="0" size="1.016" layer="95">1uF</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GRM21BC72A105KE01" prefix="C">
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="GRM21BC72A105KE01">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7675,7 +7915,7 @@ Low profile connectors, straight&lt;p&gt;
 <part name="U$6" library="NC" deviceset="NC" device=""/>
 <part name="U$7" library="NC" deviceset="NC" device=""/>
 <part name="U$15" library="NC" deviceset="NC" device=""/>
-<part name="C24" library="GRM31CR71H475KA12" deviceset="GRM31CR71H475KA12" device=""/>
+<part name="C5" library="GRM31CR71H475KA12" deviceset="GRM31CR71H475KA12" device=""/>
 <part name="X1" library="(resonator)" deviceset="32.768K12.5PI/MC306" device=""/>
 <part name="T1" library="2SC3325-Y,LF" deviceset="2SC3325-Y,LF" device=""/>
 <part name="ML1" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML10" device="" package3d_urn="urn:adsk.eagle:package:8676/1"/>
@@ -7689,7 +7929,7 @@ Low profile connectors, straight&lt;p&gt;
 <part name="C14" library="GRM0335C1E240GA01D" deviceset="GRM0335C1E240GA01D" device="" value="22μ"/>
 <part name="TWE_LEFT" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X14" device="" package3d_urn="urn:adsk.eagle:package:22417/2"/>
 <part name="TWE_RIGHT" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X14" device="" package3d_urn="urn:adsk.eagle:package:22417/2"/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="10k"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="150"/>
 <part name="U$8" library="SMD1608チップLED" deviceset="SMD1608チップLED" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -7710,6 +7950,17 @@ Low profile connectors, straight&lt;p&gt;
 <part name="C18" library="GCM188L81H104K57(0.1uF)" deviceset="GCM188L81H104KA57" device=""/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="FB1" library="BLM18KG121TN1D" deviceset="BLM18KG121TN1D" device=""/>
+<part name="C24" library="GCM188L81H104K57(0.1uF)" deviceset="GCM188L81H104KA57" device=""/>
+<part name="C23" library="GRM21BC72A105KE01(1uF)" deviceset="GRM21BC72A105KE01" device=""/>
+<part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY23" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7723,10 +7974,10 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="-93.98" y1="109.22" x2="-93.98" y2="167.64" width="0.1524" layer="97"/>
 <wire x1="-93.98" y1="167.64" x2="-162.56" y2="167.64" width="0.1524" layer="97"/>
 <text x="-160.02" y="160.02" size="5.08" layer="97">TACT_switch</text>
-<wire x1="-88.9" y1="167.64" x2="-88.9" y2="17.78" width="0.1524" layer="97"/>
-<wire x1="-88.9" y1="17.78" x2="76.2" y2="17.78" width="0.1524" layer="97"/>
+<wire x1="-91.44" y1="167.64" x2="-91.44" y2="17.78" width="0.1524" layer="97"/>
+<wire x1="-91.44" y1="17.78" x2="76.2" y2="17.78" width="0.1524" layer="97"/>
 <wire x1="76.2" y1="17.78" x2="76.2" y2="167.64" width="0.1524" layer="97"/>
-<wire x1="76.2" y1="167.64" x2="-88.9" y2="167.64" width="0.1524" layer="97"/>
+<wire x1="76.2" y1="167.64" x2="-91.44" y2="167.64" width="0.1524" layer="97"/>
 <text x="-83.82" y="154.94" size="7.62" layer="97">MCU</text>
 <wire x1="81.28" y1="83.82" x2="81.28" y2="109.22" width="0.1524" layer="97"/>
 <wire x1="81.28" y1="109.22" x2="121.92" y2="109.22" width="0.1524" layer="97"/>
@@ -7787,7 +8038,6 @@ S=VIN-&gt;silent mode</text>
 <wire x1="-259.08" y1="-160.02" x2="-30.48" y2="-160.02" width="0.1524" layer="97"/>
 <wire x1="-30.48" y1="-160.02" x2="-30.48" y2="-10.16" width="0.1524" layer="97"/>
 <wire x1="-30.48" y1="-10.16" x2="-259.08" y2="-10.16" width="0.1524" layer="97"/>
-<text x="27.94" y="40.64" size="1.778" layer="95">C5</text>
 <text x="180.34" y="-205.74" size="1.778" layer="94">Azusa基板はICも含まれた基板であるためメイン基板とし、
 can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て、
 ３V３として回路を駆動させる。</text>
@@ -7831,6 +8081,14 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <text x="213.36" y="17.78" size="1.778" layer="97">シュミットトリガの回路とか...</text>
 <text x="193.04" y="86.36" size="1.778" layer="97">ICへののノイズ流入 and 流出を防止</text>
 <text x="-198.12" y="20.32" size="1.778" layer="94">ユニバーサル基板で一応確認済み</text>
+<text x="26.416" y="40.894" size="1.778" layer="95">C5</text>
+<text x="-88.9" y="48.26" size="1.778" layer="97">DC電源ラインのノイズ対策インダクタンス</text>
+<wire x1="-7.62" y1="-121.92" x2="-7.62" y2="-165.1" width="0.1524" layer="97"/>
+<wire x1="-7.62" y1="-165.1" x2="50.8" y2="-165.1" width="0.1524" layer="97"/>
+<wire x1="50.8" y1="-165.1" x2="50.8" y2="-116.84" width="0.1524" layer="97"/>
+<wire x1="50.8" y1="-116.84" x2="-7.62" y2="-116.84" width="0.1524" layer="97"/>
+<wire x1="-7.62" y1="-116.84" x2="-7.62" y2="-119.38" width="0.1524" layer="97"/>
+<wire x1="-7.62" y1="-121.92" x2="-7.62" y2="-119.38" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="-2.54" y="93.98" smashed="yes"/>
@@ -8025,7 +8283,7 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <instance part="U$6" gate="G$1" x="-170.18" y="-124.46" smashed="yes"/>
 <instance part="U$7" gate="G$1" x="-208.28" y="-129.54" smashed="yes"/>
 <instance part="U$15" gate="G$1" x="-208.28" y="-132.08" smashed="yes"/>
-<instance part="C24" gate="G$1" x="25.4" y="40.64" smashed="yes">
+<instance part="C5" gate="G$1" x="25.4" y="40.64" smashed="yes">
 <attribute name="VALUE" x="14.224" y="33.401" size="1.778" layer="96"/>
 </instance>
 <instance part="X1" gate="G$1" x="-66.04" y="127" smashed="yes" rot="R270">
@@ -8102,7 +8360,7 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <attribute name="VALUE" x="-125.73" y="27.178" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY9" gate="GND" x="-114.3" y="25.4" smashed="yes"/>
-<instance part="SUPPLY14" gate="GND" x="-60.96" y="71.12" smashed="yes"/>
+<instance part="SUPPLY14" gate="GND" x="-66.04" y="73.66" smashed="yes"/>
 <instance part="SUPPLY15" gate="GND" x="-27.94" y="147.32" smashed="yes"/>
 <instance part="UP" gate="G$1" x="-137.16" y="60.96" smashed="yes">
 <attribute name="VALUE" x="-138.43" y="53.34" size="1.778" layer="96"/>
@@ -8130,6 +8388,38 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 </instance>
 <instance part="SUPPLY19" gate="GND" x="190.5" y="93.98" smashed="yes"/>
 <instance part="SUPPLY20" gate="GND" x="220.98" y="93.98" smashed="yes"/>
+<instance part="+3V11" gate="G$1" x="-78.74" y="93.98" smashed="yes">
+<attribute name="VALUE" x="-81.28" y="88.9" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="FB1" gate="G$1" x="-78.74" y="81.28" smashed="yes">
+<attribute name="NAME" x="-80.01" y="78.74" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-74.93" y="71.12" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C24" gate="G$1" x="-78.74" y="66.04" smashed="yes">
+<attribute name="NAME" x="-81.026" y="61.976" size="1.778" layer="95"/>
+</instance>
+<instance part="C23" gate="G$1" x="-73.66" y="66.04" smashed="yes">
+<attribute name="NAME" x="-75.946" y="61.976" size="1.778" layer="95"/>
+</instance>
+<instance part="SUPPLY21" gate="GND" x="-78.74" y="55.88" smashed="yes"/>
+<instance part="JP3" gate="G$1" x="17.78" y="-132.08" smashed="yes">
+<attribute name="NAME" x="11.43" y="-126.365" size="1.778" layer="95"/>
+<attribute name="VALUE" x="11.43" y="-137.16" size="1.778" layer="96"/>
+</instance>
+<instance part="JP4" gate="G$1" x="20.32" y="-132.08" smashed="yes" rot="MR0">
+<attribute name="NAME" x="26.67" y="-126.365" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="26.67" y="-137.16" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="JP5" gate="A" x="17.78" y="-147.32" smashed="yes">
+<attribute name="NAME" x="11.43" y="-139.065" size="1.778" layer="95"/>
+<attribute name="VALUE" x="11.43" y="-154.94" size="1.778" layer="96"/>
+</instance>
+<instance part="JP6" gate="A" x="20.32" y="-147.32" smashed="yes" rot="MR0">
+<attribute name="NAME" x="26.67" y="-139.065" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="26.67" y="-154.94" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="SUPPLY22" gate="GND" x="0" y="-157.48" smashed="yes"/>
+<instance part="SUPPLY23" gate="GND" x="40.64" y="-157.48" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -8178,6 +8468,11 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <wire x1="43.18" y1="60.96" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
 <label x="50.8" y="60.96" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP6" gate="A" pin="4"/>
+<wire x1="22.86" y1="-149.86" x2="33.02" y2="-149.86" width="0.1524" layer="91"/>
+<label x="27.94" y="-149.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
@@ -8189,6 +8484,11 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <pinref part="U$1" gate="G$1" pin="PB14"/>
 <wire x1="43.18" y1="66.04" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
 <label x="48.26" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP6" gate="A" pin="2"/>
+<wire x1="22.86" y1="-144.78" x2="33.02" y2="-144.78" width="0.1524" layer="91"/>
+<label x="27.94" y="-144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -8202,12 +8502,17 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <wire x1="43.18" y1="71.12" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
 <label x="48.26" y="71.12" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP6" gate="A" pin="3"/>
+<wire x1="22.86" y1="-147.32" x2="33.02" y2="-147.32" width="0.1524" layer="91"/>
+<label x="27.94" y="-147.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="VCAP_1"/>
 <wire x1="25.4" y1="48.26" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="C24" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SGND" class="0">
@@ -8220,7 +8525,7 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <wire x1="25.4" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
 <junction x="30.48" y="30.48"/>
 <label x="26.924" y="19.812" size="1.778" layer="95"/>
-<pinref part="C24" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="VSS1"/>
 <wire x1="30.48" y1="27.94" x2="-35.56" y2="27.94" width="0.1524" layer="91"/>
@@ -8415,10 +8720,9 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VSSA/VREF-"/>
-<wire x1="-48.26" y1="76.2" x2="-60.96" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="76.2" x2="-60.96" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="76.2" x2="-66.04" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
-<label x="-63.5" y="68.58" size="1.778" layer="95"/>
+<label x="-69.596" y="70.866" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VSS4"/>
@@ -8472,6 +8776,41 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <junction x="226.06" y="99.06"/>
 <pinref part="SUPPLY20" gate="GND" pin="GND"/>
 <label x="218.44" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C24" gate="G$1" pin="P$2"/>
+<wire x1="-78.74" y1="60.96" x2="-73.66" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="C23" gate="G$1" pin="P$2"/>
+<wire x1="-78.74" y1="58.42" x2="-78.74" y2="60.96" width="0.1524" layer="91"/>
+<junction x="-78.74" y="60.96"/>
+<pinref part="SUPPLY21" gate="GND" pin="GND"/>
+<label x="-81.28" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="1"/>
+<wire x1="15.24" y1="-142.24" x2="0" y2="-142.24" width="0.1524" layer="91"/>
+<wire x1="0" y1="-142.24" x2="0" y2="-154.94" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="-129.54" x2="0" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="0" y1="-129.54" x2="0" y2="-132.08" width="0.1524" layer="91"/>
+<junction x="0" y="-142.24"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<wire x1="0" y1="-132.08" x2="0" y2="-142.24" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-132.08" x2="0" y2="-132.08" width="0.1524" layer="91"/>
+<junction x="0" y="-132.08"/>
+<pinref part="SUPPLY22" gate="GND" pin="GND"/>
+<label x="-2.54" y="-160.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="-129.54" x2="40.64" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-129.54" x2="40.64" y2="-132.08" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="-132.08" x2="40.64" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="-132.08" x2="40.64" y2="-132.08" width="0.1524" layer="91"/>
+<junction x="40.64" y="-132.08"/>
+<pinref part="SUPPLY23" gate="GND" pin="GND"/>
+<label x="38.1" y="-160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIR4" class="0">
@@ -8532,6 +8871,11 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <pinref part="U1" gate="G$1" pin="NCS"/>
 <wire x1="-208.28" y1="-119.38" x2="-228.6" y2="-119.38" width="0.1524" layer="91"/>
 <label x="-228.6" y="-119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP6" gate="A" pin="1"/>
+<wire x1="22.86" y1="-142.24" x2="33.02" y2="-142.24" width="0.1524" layer="91"/>
+<label x="27.94" y="-142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -8775,6 +9119,11 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <wire x1="-236.22" y1="-66.04" x2="-246.38" y2="-66.04" width="0.1524" layer="91"/>
 <label x="-248.92" y="-66.04" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP5" gate="A" pin="3"/>
+<wire x1="15.24" y1="-147.32" x2="5.08" y2="-147.32" width="0.1524" layer="91"/>
+<label x="2.54" y="-147.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="UART_TX" class="0">
 <segment>
@@ -8949,8 +9298,14 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VDD4"/>
-<wire x1="-40.64" y1="139.7" x2="-40.64" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="139.7" x2="-40.64" y2="142.24" width="0.1524" layer="91"/>
 <label x="-40.64" y="144.78" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="VBAT"/>
+<wire x1="-40.64" y1="142.24" x2="-40.64" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="132.08" x2="-53.34" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="132.08" x2="-53.34" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="142.24" x2="-40.64" y2="142.24" width="0.1524" layer="91"/>
+<junction x="-40.64" y="142.24"/>
 </segment>
 <segment>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
@@ -8989,6 +9344,11 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <pinref part="U$1" gate="G$1" pin="VDD3"/>
 <wire x1="43.18" y1="132.08" x2="58.42" y2="132.08" width="0.1524" layer="91"/>
 <label x="48.26" y="132.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="+3V11" gate="G$1" pin="+3V3"/>
+<wire x1="-78.74" y1="91.44" x2="-78.74" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="FB1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -9112,6 +9472,11 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <junction x="200.66" y="111.76"/>
 <pinref part="C18" gate="G$1" pin="P$1"/>
 <wire x1="205.74" y1="111.76" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="4"/>
+<wire x1="15.24" y1="-149.86" x2="5.08" y2="-149.86" width="0.1524" layer="91"/>
+<label x="5.08" y="-149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -9358,6 +9723,20 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <wire x1="-127" y1="58.42" x2="-127" y2="53.34" width="0.1524" layer="91"/>
 <junction x="-127" y="58.42"/>
 <label x="-124.46" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$46" class="0">
+<segment>
+<wire x1="-48.26" y1="71.12" x2="-78.74" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="FB1" gate="G$1" pin="2"/>
+<wire x1="-78.74" y1="71.12" x2="-78.74" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="C24" gate="G$1" pin="P$1"/>
+<wire x1="-78.74" y1="68.58" x2="-78.74" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-78.74" y="71.12"/>
+<pinref part="C23" gate="G$1" pin="P$1"/>
+<wire x1="-73.66" y1="68.58" x2="-78.74" y2="68.58" width="0.1524" layer="91"/>
+<junction x="-78.74" y="68.58"/>
+<pinref part="U$1" gate="G$1" pin="VDDA/VREF+"/>
 </segment>
 </net>
 </nets>
