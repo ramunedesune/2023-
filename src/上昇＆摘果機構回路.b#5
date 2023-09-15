@@ -2458,7 +2458,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="91" x="66.161" y="5.457" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="71.241" y="8.632" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="SERVO" library="con-jst-xh (1)" package="B2B-XH" value="02-JST" x="90.8" y="57.8" smashed="yes" rot="R90">
+<element name="AZUSA_COM" library="con-jst-xh (1)" package="B2B-XH" value="02-JST" x="90.8" y="57.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="86.99" y="56.53" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="94.61" y="56.53" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -2713,7 +2713,7 @@ design rules under a new name.</description>
 <vertex x="63.1" y="6.6"/>
 <vertex x="62.7" y="7"/>
 </polygon>
-<contactref element="SERVO" pad="1"/>
+<contactref element="AZUSA_COM" pad="1"/>
 <wire x1="82.59" y1="71.59" x2="85.4" y2="73.4" width="0" layer="19" extent="1-1"/>
 <wire x1="78.8" y1="66.6" x2="82.59" y2="71.59" width="0" layer="19" extent="1-1"/>
 <wire x1="78.4" y1="64.2" x2="78.8" y2="66.6" width="0" layer="19" extent="1-1"/>
@@ -3525,7 +3525,7 @@ design rules under a new name.</description>
 <wire x1="66.361" y1="38.993" x2="64.71680625" y2="38.993" width="0.2" layer="16"/>
 </signal>
 <signal name="PWM_SERVO">
-<contactref element="SERVO" pad="2"/>
+<contactref element="AZUSA_COM" pad="2"/>
 <contactref element="U$1" pad="PB0"/>
 <wire x1="54.25" y1="34.4" x2="54.25" y2="32.15" width="0.2" layer="16"/>
 <wire x1="54.25" y1="32.15" x2="55.4" y2="31" width="0.2" layer="16"/>
