@@ -656,8 +656,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="35.8495" y="18.8705" size="0.5" layer="27" rot="R270"/>
 </element>
 <element name="CON1" library="amass" package="XT90PW-M" value="XT90PW-M" x="21" y="28" smashed="yes" rot="R90">
-<attribute name="NAME" x="25.5" y="25" size="1.778" layer="25" rot="R90"/>
-<attribute name="VALUE" x="-4.3" y="21.5" size="1.778" layer="27" rot="R90"/>
+<attribute name="NAME" x="26.5" y="25" size="1.778" layer="25" rot="R90"/>
+<attribute name="VALUE" x="7.7" y="21.5" size="1.778" layer="27" rot="R90"/>
 </element>
 <element name="AZUSA_CON1" library="con-jst-xh (1)" package="B2B-XH" value="02-JST" x="27" y="-4" smashed="yes">
 <attribute name="NAME" x="21.73" y="-0.19" size="1.27" layer="25"/>
