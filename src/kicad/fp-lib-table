@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "上昇＆摘果機構回路")(type "KiCad")(uri "$(KIPRJMOD)/上昇＆摘果機構回路.pretty")(options "")(descr ""))
+)

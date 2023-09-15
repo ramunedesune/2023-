@@ -7223,11 +7223,9 @@ Low profile connectors, straight&lt;p&gt;
 <part name="ENC1" library="con-jst-xh (1)" deviceset="05-JST" device=""/>
 <part name="ENC2" library="con-jst-xh (1)" deviceset="05-JST" device=""/>
 <part name="ENC3" library="con-jst-xh (1)" deviceset="05-JST" device=""/>
-<part name="ENC4" library="con-jst-xh (1)" deviceset="05-JST" device=""/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_C_L" device=""/>
 <part name="REGYURETA" library="AZ1117CH-3.3TRG1" deviceset="ＡＺ１１１７ＣＨ－３．３ＴＲＧ１" device="" value="３．３V"/>
@@ -7286,8 +7284,10 @@ Low profile connectors, straight&lt;p&gt;
 <part name="RIGHT_D" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY23" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="AZUSA_COM" library="con-jst-xh (1)" deviceset="02-JST" device=""/>
+<part name="AZUSA_CON1" library="con-jst-xh (1)" deviceset="02-JST" device=""/>
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="AZUSA_CON2" library="con-jst-xh (1)" deviceset="02-JST" device=""/>
+<part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7465,14 +7465,9 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <attribute name="VALUE" x="201.93" y="45.72" size="1.778" layer="96"/>
 <attribute name="NAME" x="201.93" y="64.262" size="1.778" layer="95"/>
 </instance>
-<instance part="ENC4" gate="G$1" x="203.2" y="35.56" smashed="yes">
-<attribute name="VALUE" x="201.93" y="25.4" size="1.778" layer="96"/>
-<attribute name="NAME" x="201.93" y="43.942" size="1.778" layer="95"/>
-</instance>
 <instance part="SUPPLY10" gate="GND" x="187.96" y="48.26" smashed="yes"/>
 <instance part="SUPPLY11" gate="GND" x="187.96" y="27.94" smashed="yes"/>
 <instance part="SUPPLY12" gate="GND" x="220.98" y="48.26" smashed="yes"/>
-<instance part="SUPPLY13" gate="GND" x="220.98" y="27.94" smashed="yes"/>
 <instance part="SUPPLY16" gate="GND" x="63.5" y="121.92" smashed="yes"/>
 <instance part="FRAME2" gate="G$1" x="-274.32" y="-231.14" smashed="yes"/>
 <instance part="FRAME2" gate="G$2" x="177.8" y="-231.14" smashed="yes">
@@ -7648,11 +7643,16 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 </instance>
 <instance part="SUPPLY22" gate="GND" x="-236.22" y="-73.66" smashed="yes"/>
 <instance part="SUPPLY23" gate="GND" x="-195.58" y="-73.66" smashed="yes"/>
-<instance part="AZUSA_COM" gate="G$1" x="-137.16" y="91.44" smashed="yes">
-<attribute name="VALUE" x="-138.43" y="83.82" size="1.778" layer="96"/>
-<attribute name="NAME" x="-138.43" y="94.742" size="1.778" layer="95"/>
+<instance part="AZUSA_CON1" gate="G$1" x="-149.86" y="91.44" smashed="yes">
+<attribute name="VALUE" x="-151.13" y="83.82" size="1.778" layer="96"/>
+<attribute name="NAME" x="-151.13" y="94.742" size="1.778" layer="95"/>
 </instance>
-<instance part="SUPPLY24" gate="GND" x="-124.46" y="83.82" smashed="yes"/>
+<instance part="SUPPLY24" gate="GND" x="-137.16" y="83.82" smashed="yes"/>
+<instance part="AZUSA_CON2" gate="G$1" x="-121.92" y="91.44" smashed="yes">
+<attribute name="VALUE" x="-123.19" y="83.82" size="1.778" layer="96"/>
+<attribute name="NAME" x="-123.19" y="94.742" size="1.778" layer="95"/>
+</instance>
+<instance part="SUPPLY13" gate="GND" x="-109.22" y="83.82" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -7848,12 +7848,6 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <label x="217.678" y="45.212" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ENC4" gate="G$1" pin="1"/>
-<pinref part="SUPPLY13" gate="GND" pin="GND"/>
-<wire x1="210.82" y1="30.48" x2="220.98" y2="30.48" width="0.1524" layer="91"/>
-<label x="217.932" y="24.638" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="TWE_LEFT" gate="A" pin="1"/>
 <wire x1="5.08" y1="-45.72" x2="-7.62" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
@@ -7969,11 +7963,18 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <label x="-198.12" y="-76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AZUSA_COM" gate="G$1" pin="1"/>
-<wire x1="-129.54" y1="88.9" x2="-124.46" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="88.9" x2="-124.46" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="AZUSA_CON1" gate="G$1" pin="1"/>
+<wire x1="-142.24" y1="88.9" x2="-137.16" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-137.16" y1="88.9" x2="-137.16" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="SUPPLY24" gate="GND" pin="GND"/>
-<label x="-127" y="81.28" size="1.778" layer="95"/>
+<label x="-139.7" y="81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="AZUSA_CON2" gate="G$1" pin="1"/>
+<wire x1="-114.3" y1="88.9" x2="-109.22" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="88.9" x2="-109.22" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="SUPPLY13" gate="GND" pin="GND"/>
+<label x="-111.76" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIR4" class="0">
@@ -8141,30 +8142,6 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <pinref part="U$1" gate="G$1" pin="PA9"/>
 <wire x1="43.18" y1="101.6" x2="58.42" y2="101.6" width="0.1524" layer="91"/>
 <label x="48.26" y="101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="EN4_A" class="0">
-<segment>
-<pinref part="ENC4" gate="G$1" pin="3"/>
-<wire x1="210.82" y1="35.56" x2="223.52" y2="35.56" width="0.1524" layer="91"/>
-<label x="215.9" y="35.56" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="PB7"/>
-<wire x1="-15.24" y1="139.7" x2="-15.24" y2="152.4" width="0.1524" layer="91"/>
-<label x="-15.24" y="142.24" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="EN4_B" class="0">
-<segment>
-<pinref part="ENC4" gate="G$1" pin="5"/>
-<wire x1="210.82" y1="40.64" x2="223.52" y2="40.64" width="0.1524" layer="91"/>
-<label x="215.9" y="40.64" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="PB6"/>
-<wire x1="-10.16" y1="139.7" x2="-10.16" y2="152.4" width="0.1524" layer="91"/>
-<label x="-10.16" y="142.24" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="EN1_A" class="0">
@@ -8446,11 +8423,6 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <label x="218.44" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ENC4" gate="G$1" pin="4"/>
-<wire x1="210.82" y1="38.1" x2="223.52" y2="38.1" width="0.1524" layer="91"/>
-<label x="218.44" y="38.1" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="REGYURETA" gate="G$1" pin="INPUT"/>
 <wire x1="116.84" y1="142.24" x2="114.3" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
@@ -8696,16 +8668,28 @@ can通信で上昇＆摘果機構のIC（F446RE）と通信して５Vを得て�
 <pinref part="U$1" gate="G$1" pin="VDDA/VREF+"/>
 </segment>
 </net>
-<net name="PWM_SERVO" class="0">
+<net name="PWM2_SERVO" class="0">
 <segment>
-<pinref part="AZUSA_COM" gate="G$1" pin="2"/>
-<wire x1="-129.54" y1="91.44" x2="-114.3" y2="91.44" width="0.1524" layer="91"/>
-<label x="-129.54" y="91.44" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="PB6"/>
+<wire x1="-10.16" y1="139.7" x2="-10.16" y2="152.4" width="0.1524" layer="91"/>
+<label x="-10.16" y="137.16" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="AZUSA_CON2" gate="G$1" pin="2"/>
+<wire x1="-114.3" y1="91.44" x2="-99.06" y2="91.44" width="0.1524" layer="91"/>
+<label x="-114.3" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWM1_SERVO" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PB0"/>
 <wire x1="5.08" y1="48.26" x2="5.08" y2="35.56" width="0.1524" layer="91"/>
 <label x="5.08" y="35.56" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="AZUSA_CON1" gate="G$1" pin="2"/>
+<wire x1="-142.24" y1="91.44" x2="-127" y2="91.44" width="0.1524" layer="91"/>
+<label x="-142.24" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
