@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "remote emergency switch-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/remote emergency switch-eagle-import.kicad_sym")(options "")(descr ""))
+)

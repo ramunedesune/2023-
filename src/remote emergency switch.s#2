@@ -5215,7 +5215,7 @@ DIN A3, landscape with location and doc. field</description>
 </class>
 </classes>
 <parts>
-<part name="U$5" library="con-jst-xh (1)" deviceset="02-JST" device=""/>
+<part name="CELL_SUPPLY" library="con-jst-xh (1)" deviceset="02-JST" device=""/>
 <part name="TWE_LEFT2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X14" device="" package3d_urn="urn:adsk.eagle:package:22417/2"/>
 <part name="TWE_RIGHT2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X14" device="" package3d_urn="urn:adsk.eagle:package:22417/2"/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -5278,9 +5278,9 @@ DIN A3, landscape with location and doc. field</description>
 <text x="-137.16" y="-99.06" size="1.778" layer="94">センサー固有パラメーター設定を０にするとtwelite内部でプルアップする</text>
 </plain>
 <instances>
-<instance part="U$5" gate="G$1" x="60.96" y="-86.36" smashed="yes">
+<instance part="CELL_SUPPLY" gate="G$1" x="60.96" y="-86.36" smashed="yes">
 <attribute name="VALUE" x="59.69" y="-93.98" size="1.778" layer="96"/>
-<attribute name="NAME" x="59.69" y="-83.058" size="1.778" layer="95"/>
+<attribute name="NAME" x="54.61" y="-83.058" size="1.778" layer="95"/>
 </instance>
 <instance part="TWE_LEFT2" gate="A" x="25.4" y="-76.2" smashed="yes">
 <attribute name="NAME" x="11.43" y="-57.785" size="1.778" layer="95"/>
@@ -5398,7 +5398,7 @@ DIN A3, landscape with location and doc. field</description>
 <label x="7.62" y="-68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="1"/>
+<pinref part="CELL_SUPPLY" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="-88.9" x2="68.58" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="-93.98" x2="71.12" y2="-93.98" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="2"/>
@@ -5420,21 +5420,6 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="DEVICE" gate="G$1" pin="3"/>
 <wire x1="-38.1" y1="-5.08" x2="-27.94" y2="-5.08" width="0.1524" layer="91"/>
 <label x="-33.02" y="-5.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="+3.3V" class="0">
-<segment>
-<pinref part="REGYURETA" gate="G$1" pin="OUTPUT"/>
-<wire x1="30.48" y1="-2.54" x2="33.02" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="-2.54" x2="38.1" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="-2.54" x2="45.72" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="-5.08" x2="33.02" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="33.02" y="-2.54"/>
-<label x="40.64" y="-2.54" size="1.778" layer="95"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="-5.08" x2="38.1" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="38.1" y="-2.54"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -5469,7 +5454,7 @@ DIN A3, landscape with location and doc. field</description>
 <label x="35.56" y="-60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="2"/>
+<pinref part="CELL_SUPPLY" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="-86.36" x2="68.58" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="-81.28" x2="71.12" y2="-81.28" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="1"/>
@@ -5477,6 +5462,19 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="71.12" y1="-83.82" x2="71.12" y2="-81.28" width="0.1524" layer="91"/>
 <junction x="71.12" y="-81.28"/>
 <label x="71.12" y="-81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="REGYURETA" gate="G$1" pin="OUTPUT"/>
+<wire x1="30.48" y1="-2.54" x2="33.02" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="-2.54" x2="38.1" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-2.54" x2="45.72" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-5.08" x2="33.02" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="33.02" y="-2.54"/>
+<label x="40.64" y="-2.54" size="1.778" layer="95"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="-5.08" x2="38.1" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="38.1" y="-2.54"/>
 </segment>
 </net>
 </nets>
