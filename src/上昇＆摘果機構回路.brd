@@ -2763,9 +2763,9 @@ design rules under a new name.</description>
 <wire x1="84.9048" y1="40.7558" x2="84.9048" y2="72.88836875" width="0.2" layer="16"/>
 <contactref element="U$1" pad="PC5"/>
 <wire x1="54.75" y1="34.4" x2="54.7506" y2="34.3994" width="0.2" layer="16"/>
-<wire x1="54.7506" y1="32.9067625" x2="56.7211625" y2="30.9362" width="0.2" layer="16"/>
 <wire x1="56.7211625" y1="30.9362" x2="75.0852" y2="30.9362" width="0.2" layer="16"/>
-<wire x1="54.7506" y1="32.9067625" x2="54.75" y2="34.4" width="0" layer="19" extent="16-16"/>
+<wire x1="54.75" y1="34.4" x2="54.75" y2="32.9073625" width="0.2" layer="16"/>
+<wire x1="54.75" y1="32.9073625" x2="56.7211625" y2="30.9362" width="0.2" layer="16"/>
 </signal>
 <signal name="CS">
 <contactref element="U$1" pad="PB12"/>
