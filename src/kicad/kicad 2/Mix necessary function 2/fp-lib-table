@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Mix necessary function")(type "KiCad")(uri "$(KIPRJMOD)/Mix necessary function.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "Mix necessary function-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Mix necessary function-eagle-import.kicad_sym")(options "")(descr ""))
+)
